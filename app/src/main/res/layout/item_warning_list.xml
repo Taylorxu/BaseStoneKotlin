@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+                name="data"
+                type="www.wisesign.com.cbm.model.AlarmSystemBean"/>
+
+        <variable
+                name="view"
+                type="android.view.View"/>
+    </data>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+            <FrameLayout
+                    android:id="@+id/top_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                <TextView
+                        android:id="@+id/announce_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center_vertical"
+                        android:text="@string/str_warning_content"
+                        android:textColor="@color/color_4d"
+                        android:textSize="16sp"/>
+
+                <TextView
+                        android:id="@+id/announce_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center_vertical"
+                        android:text="@{data.alarmTime}"
+                        android:textColor="@color/text_color_jizu_name"
+                        android:textSize="13sp"/>
+
+
+            </FrameLayout>
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/color_line"/>
+
+            <TextView
+                    android:id="@+id/log_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@{data.alarmContent}"
+                    android:textColor="@color/color_4d"
+                    android:textSize="15sp"/>
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/color_line"
+                    android:visibility="@{data.shuoldShow()==0?view.VISIBLE:view.GONE}"/>
+
+            <TextView
+                    android:id="@+id/announce_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right|center_vertical"
+                    android:text='@{"恢复时间:"+data.recoveryTime}'
+                    android:textColor="@color/text_color_jizu_name"
+                    android:visibility="@{data.shuoldShow()==0?view.VISIBLE:view.GONE}"
+                    android:textSize="14sp"
+            />
+        </LinearLayout>
+    </LinearLayout>
+</layout>

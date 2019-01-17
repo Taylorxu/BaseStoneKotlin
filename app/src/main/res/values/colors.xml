@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4099ff</color>
+    <color name="colorPrimaryDark">#4099ff</color>
+    <color name="colorAccent">#4099ff</color>
+
+    <color name="bg_gray">#efefef</color>
+    <color name="text_color_fe4f">#feffff</color>
+    <color name="text_color_jizu_fuhe">#4099ff</color>
+    <color name="text_color_jizu_name">#999999</color>
+    <color name="color_line">#f0f0f0</color>
+    <color name="color_6_3">#333333</color>
+    <color name="color_gradient_start">#dcf1ff</color>
+    <color name="color_gradient_end">#dce8ff</color>
+    <color name="color_gradient1_start">#ffe4dc</color>
+    <color name="color_gradient1_end">#ffdcdc</color>
+    <color name="color_gradient2_start">#ffeed7</color>
+    <color name="color_gradient2_end">#ffdcdc</color>
+    <color name="color_cff">#3c7cff</color>
+    <color name="color_c600">#ffc600</color>
+    <color name="color_ff67">#ff6767</color>
+    <color name="color_4d">#4d4d4d</color>
+    <color name="color_e6">#e6e6e6</color>
+    <color name="color_724">#ef9724</color>
+    <color name="color_8f3">#c408f3</color>
+    <color name="color_673">#737373</color>
+    <color name="color_42b1">#42b1ff</color>
+    <color name="color_ffb72">#ffb72b</color>
+    <color name="color_e159">#e159ff</color>
+    <color name="color_420a">#429aff</color>
+    <color name="color_64e">#4e4e4e</color>
+    <color name="color_ff5">#ff5a6b</color>
+    <color name="color_ffc">#ffc742</color>
+    <color name="color_26d">#26de8a</color>
+    <color name="color_6cd">#cdcdcd</color>
+    <color name="color_67f">#7f7f7f</color>
+    <color name="color_53b">#53b0fb</color>
+    <color name="color_319a">#319aef</color>
+    <color name="color_350d">#359df0</color>
+    <color name="color_logo_text">#45a4f1</color>
+    <color name="color_40a6">#40a6ff</color>
+    <color name="color_6ccc">#cccccc</color>
+    <color name="color_6f5">#f5f5f5</color>
+    <color name="color_top1_b">#87c8fe</color>
+    <color name="color_top2_b">#a8d8fe</color>
+    <color name="color_top3_b">#ddeffd</color>
+    <color name="color_login_statue">#3886f2</color>
+    <color name="color_stroke_dc">#dcdcdc</color>
+    <color name="color_text_3e">#3e3e3e</color>
+    <color name="color_bg_23">#2378ee</color>
+    <color name="color_stroke_31">#319aef</color>
+
+    <color name="c3">#6d7072</color>
+    <color name="c1">#0fa6df</color>
+</resources>

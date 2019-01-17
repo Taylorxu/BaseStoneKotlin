@@ -1,0 +1,19 @@
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+    >
+
+        <com.aspsine.irecyclerview.IRecyclerView
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:loadMoreEnabled="true"
+                app:refreshEnabled="true"
+                app:loadMoreFooterLayout="@layout/layout_irecyclerview_load_more_footer"
+                app:refreshHeaderLayout="@layout/layout_irecyclerview_refresh_header"
+        />
+
+    </FrameLayout>
+</layout>

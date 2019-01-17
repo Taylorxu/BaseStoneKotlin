@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">统一业务监控</string>
+    <string name="title_activity_login">登录</string>
+    <string name="login_sucess_tost">登录成功</string>
+    <string name="quite_warning">您确定要退出当前账号吗</string>
+
+    <string name="prompt_account">请输入您的账号</string>
+    <string name="prompt_password">请输入您的密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="error_login_login_need">请登录</string>
+    <string name="str_top">成员行%1$s小时内交易量Top</string>
+    <string name="str_top_date_title">成员行交易量Top</string>
+    <string name="str_top_member">成员行</string>
+    <string name="str_top_exchange">交易量</string>
+    <string name="str_warning_title">告警</string>
+    <string name="str_warning_content">告警内容:</string>
+    <string name="str_warning_list">告警列表</string>
+    <string name="str_warning_history">历史告警</string>
+    <string name="str_seeting">设置</string>
+    <string name="str_system_case">当日系统运行情况</string>
+    <string name="str_service_set">设置服务器地址</string>
+    <string name="str_service_name">服务器地址:</string>
+    <string name="str_save">保存</string>
+    <string name="str_bank_select">选择银行</string>
+    <string name="ste_hint_select_bank">输入关键字筛选</string>
+    <string name="str_version">软件版本</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="net_url">设置服务器地址</string>
+    <string name="server">请输入服务器地址</string>
+    <string name="save">保存</string>
+
+    <string name="toast_server">服务器地址不能为空</string>
+    <string name="toast_server_end">请已"/"结束</string>
+    <string name="toast_server_save">保存成功</string>
+    <string name="toast_server_fail">保存失败</string>
+    <string name="str_empty_data">暂无数据</string>
+    <string name="str_empty_data1">暂无数据\n下拉刷新</string>
+</resources>
